@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo
+{
+    width: 33vw;
+    height: 33vw;
+}
+
+.userimg, .pwimg
+{
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    right: 7px;
+}
+
+input
+{
+    width: 60vw;
+    height: 7vw;
+    border: 0px solid black;
+    font-size: 4vw;
+}
+
+.id
+{
+    width: 75vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray ;
+    border-radius: 1.5vw;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px lightgray inset;
+}
+
+.pw
+{
+    position: relative;
+    top: 4vw;
+    width: 75vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray ;
+    border-radius: 1.5vw;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px lightgray inset;
+}
+
+.login
+{
+    position: relative;
+    top: 13vw;
+    width: 75vw;
+    height: 11vw;
+    border: 1px solid lightgray ;
+    border-radius: 1.5vw;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    font-family: 'Indie Flower', cursive;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.container
+{
+    position: relative;
+    top: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
